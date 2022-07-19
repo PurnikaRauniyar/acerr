@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sample</title>
+    <style>
+        header{
+            background-color: rgb(46, 46, 155);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        nav ul{
+            flex-wrap: wrap;
+            display: flex;
+            list-style-type: none;
+
+        }
+        nav ul li a{
+            color: rgb(108, 207, 207);
+            text-decoration: none;
+            padding: 20px;
+            display: inline-block;
+            font-size: 20px;
+            font-weight: bold;
+            transition: all 4s;
+        }
+        nav ul li a:hover{
+            color: chocolate;
+            font-size: 25px;
+        }
+        .container{
+            background-color: darkgoldenrod;
+            justify-content: space-evenly;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .left-content{
+            width: 30%;
+            height: 600px;
+            background-color: rgb(107, 106, 106);
+            margin-top: 20px;
+        }
+        .right-content{
+            width: 60%;
+            height:600px ;
+            background-color: darkred;
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            align-content: space-around;
+
+        }
+        .img-first{
+            height: 270px;
+        
+        }
+        .img-second{
+            height: 270px;
+            margin-top: 20px;
+        }
+        .container img{
+            height: 100%;
+            width: 100%;
+        }
+        .item{
+            width: 48%;
+            height: 270px;
+            /* background-color: blue; */
+            text-align: justify;
+            border: 2px solid brown;
+            padding: 5px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Title</a></li>
+                <li><a href="#">service</a></li>
+                <li><a href="#">Gallery</a></li>  
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="left-content">
+            <div class="img-first">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuTTybnV9SXncdIJCKannTZcIWc9MpuUwH4Q&usqp=CAU" alt="">
+            </div>
+            <div class="img-second">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY7czGbdsiypZSjAr9_p7EFn8H9aGMFo93Aw&usqp=CAU" alt="">
+            </div>
+        </div>
+        <div class="right-content">
+            <div class="item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT3cbqhTvFsEbu_3hhKcXqsjlj9H4y7-c8Ag&usqp=CAU" alt=""></div>
+            <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ea dicta esse aliquam fuga ab quia ipsam dolores pariatur cumque, modi culpa sint delectus enim odit aut sapiente suscipit reiciendis atque? Molestias exercitationem voluptates veritatis architecto animi blanditiis eius quis nihil, debitis accusantium quam molestiae ullam suscipit neque tempore impedit placeat a facilis! Maiores consequuntur eius atque optio dolorem voluptatibus illum expedita, dicta ea pariatur hic quaerat nemo distinctio nam aut officiis suscipit commodi voluptate perferendis unde voluptatum autem? Perferendis minus earum qui, rem culpa ut reprehenderit nobis iusto at tempora error, alias recusandae, accusantium necessitatibus iste dicta! Laborum, veniam?</div>
+            <div class="item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8Gl-ejtKcDuvnL9SEgqmBiaVVtTNhKPahmg&usqp=CAU" alt=""></div>
+            <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, nobis! Dolores delectus recusandae possimus maiores assumenda! Labore beatae sunt provident sit vitae consequatur ducimus at minima officia? Possimus eligendi ab accusantium maiores placeat. Deserunt, voluptate quam alias in repellendus corrupti dolor ipsum perspiciatis iusto error voluptatem quidem a ratione tempore consequuntur debitis nulla molestiae aliquid magni praesentium! Animi doloremque velit eligendi unde nostrum exercitationem ipsa id debitis. Nihil neque incidunt necessitatibus, obcaecati esse quae consequatur praesentium nostrum quisquam mollitia! Impedit, dolorum doloremque a totam laudantium aliquid. Perferendis sapiente praesentium rem expedita quod aperiam sed neque deleniti voluptatum, unde maxime dicta!</div>
+
+        </div>
+    </div>
+</body>
+</html>

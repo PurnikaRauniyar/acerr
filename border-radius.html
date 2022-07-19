@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>border radius</title>
+    <style>
+        .demo-container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        .first-container{
+            height: 100px;
+            width: 400px;
+            background-color: aqua;
+            border-radius: 50px;
+        }
+        .second-container{
+            height: 100px;
+            width: 400px;
+            background-color: rgb(37, 161, 48);
+            border-top-right-radius: 50px;
+        }
+        .third-container{
+            height: 100px;
+            width: 400px;
+            background-color: rgb(153, 161, 37);
+            border-bottom-right-radius: 60px;
+            border-top-left-radius: 60px;
+            
+        }
+        .circle{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            background-color:rgb(180, 70, 70) ;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="demo-container">
+    <div class="first-container"></div>
+    <div class="second-container"></div>
+    <div class="third-container"></div>
+    <div class="circle"></div>
+</div>
+</body>
+</html>

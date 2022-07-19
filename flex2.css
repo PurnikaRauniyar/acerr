@@ -1,0 +1,25 @@
+.image{
+    background-color: rgb(16, 148, 75);
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 10px solid yellow;
+    border-style: groove;
+    overflow: hidden;
+}
+.item{
+    height: 1000;
+    width: 500;
+    margin: 10px;
+    background-color: rgb(221, 208, 19);
+    
+}
+img{
+    height: 100%;
+    width: 100%;
+    transition: all 4s;
+}
+.image:hover img{
+    transform: scale(0.7);
+}

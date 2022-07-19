@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image zoom</title>
+    <style>
+        #pearl{
+            height: 300px;
+            width: 400px;
+            border: 5px solid rgb(17, 75, 29);
+            overflow: hidden;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+            transition: all 5s;
+        }
+        #pearl:hover img{
+          transform: scale(1.4); 
+        }
+        .text{
+            
+            width: 400px;
+            border: 10px solid rgb(26, 20, 20);
+            margin-top: 20px;
+            overflow: hidden;
+        }
+        h1{
+            
+            width: 100%;
+            transition: all 2s;
+        }
+        .text:hover h1{
+            transform: scale(1.3);
+            color: rgb(31, 126, 126);
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="pearl">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDstxpX8FgO24-O3LSqLzvfOiwHV_ubon9sQ&usqp=CAU" alt="">
+         </div>
+         <div class="text">
+             <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad et omnis corporis sit molestias similique amet, ab vel tempore animi iste sed doloremque inventore, repudiandae ratione quisquam saepe voluptates nesciunt.
+
+             </h1>
+         </div>
+</body>
+</html>

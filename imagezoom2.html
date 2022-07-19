@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zoom out</title>
+    <style>
+        .out{
+            height: 300px;
+            width: 400px;
+            border: 12px solid rgb(110, 53, 53);
+            overflow: hidden;
+            
+        }
+        img{
+            height: 100%;
+            width: 100%;
+            transition: all 2s;
+
+        }
+        .out:hover img{
+            transform: scale(0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="out">
+        <img src="https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg" alt="">
+    </div>
+</body>
+</html>

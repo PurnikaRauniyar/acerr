@@ -1,0 +1,8 @@
+.navbar{
+    background-color: blueviolet;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
